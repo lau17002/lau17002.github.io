@@ -1,0 +1,20 @@
+body {
+    background-color: green;
+}
+
+section {
+    background-color: skyblue;
+    font-size: 25px;
+}
+
+.latin {
+    color:white;
+    text-align:center;
+    padding: 25px;
+    margin: 100px 50px;
+    border: 1px solid black;
+    font-family: 'Ephesis', cursive;
+}
+#id {
+
+}
