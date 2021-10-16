@@ -19,14 +19,15 @@ section h2 {
 
 footer h3 {
     color:#14213d;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a {
     color:#14213d;
     text-decoration: none;
 }
 footer a:hover {
-    color:#14213d;
+    background-color:white;
+    color:#14213D;
 }
 
 h4 {
