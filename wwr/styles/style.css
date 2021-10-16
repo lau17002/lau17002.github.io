@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+body {
+    background-color: white;
+    font-family: Open Sans, Helvetica;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A9927D;
+}
+
+section h2 {
+    font-family: "Bebas Neue", Open Sans, Helvetica;
+    margin: 0;
+}
+
+footer h3 {
+    color:#14213d;
+    text-decoration: underline;
+}
+footer a {
+    color:#14213d;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#14213d;
+}
+
+h4 {
+    color: #14213D;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +42,7 @@ nav a {
     text-align: center;
     color:#14213D;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -25,14 +61,6 @@ main section {
     height: 725px;
 }
 
-body {
-    background-color: white;
-}
-
-header {
-    background-color: #A9927D;
-}
-
 nav a:hover {
     background-color:white;
     color:#14213D;
@@ -42,8 +70,11 @@ nav a:hover {
     background-color: #1AC7C4;
     color:#14213D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-
 
 .book:hover, .join:hover {
     background-color: white;
@@ -56,42 +87,36 @@ nav a:hover {
 
 .msg {
     background-color: #1AC7C4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #a9927d;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color:#14213D;
-}
-
-h4 {
-    color: #14213D;
+    font-family: "Bebas Neue";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg h2 {
     color: #14213d;
 }
 
-.mgs p {
+.msg p {
     color: #14213d;
-}
-
-footer h3 {
-    color:#14213d;
-    text-decoration: underline;
-}
-footer a {
-    color:#14213d;
-    text-decoration: none;
-}
-footer a:hover {
-    color:#14213d;
+    font-size:.8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -100,4 +125,24 @@ footer a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #a9927d;;
+}
+
+main section img {
+    box-sizing: border-box;
 }
