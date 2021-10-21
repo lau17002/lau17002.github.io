@@ -1,0 +1,40 @@
+/*To create extra rows/columns, count the lines* 1/3, start at line 1 end at line 3. Basically tells it how much space to take up in the grid*/
+/*Rows are also numbered, say 1/3 and 1/3 to make an item fill the box.*/
+
+body {
+    background-color: lightcoral;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /*defines how many columns and size*/
+    grid-template-rows: 189px 189px 228px; /*defines how many rows and size*/
+    grid-gap:15px;
+    max-width: 1000px;
+    margin: 5px auto;
+}
+
+.conference {
+    grid-row: 1/3;
+    grid-column: 1/3;
+    background-color: skyblue;
+}
+
+.prophet {
+    grid-column: 3/-1; /*-1 tells it to go to the very end, regardless of amount of rows*/
+    background-color: turquoise;
+}
+
+.learnmore {
+    grid-column: 3/-1;
+    background-color: cyan;
+}
+
+.hope, .human, .podcast, .news {
+    background-color: blanchedalmond;
+}
