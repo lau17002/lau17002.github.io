@@ -31,6 +31,8 @@ footer h3 {
 footer a {
     color:#14213d;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 footer h3 a:hover {
     background-color:white;
@@ -63,6 +65,11 @@ footer h3 a:hover {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: white;
+    text-shadow: 5px 5px black;
+}
+
+#hero-msg h4 {
+    margin-top: 15px;
 }
 
 nav a {
@@ -164,7 +171,8 @@ footer {
     color:#14213D;
     font-family: "Bebas Neue";
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .msg h2 {
@@ -197,8 +205,12 @@ footer {
     align-self: center;
 }
 
-footer .social img {
+.social img {
     padding-top: 15px;
+}
+
+.social img:hover {
+    transform: scale(1.1);
 }
 
 .rivers-card, .camping-card, .rapids-card {
