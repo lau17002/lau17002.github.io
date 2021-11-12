@@ -227,6 +227,55 @@ main section img {
     box-sizing: border-box;
 }
 
+.rivers-grid img {
+    height: 500px;
+    width: 500px;
+}
+
+.rivers-grid {
+    font-size: 18px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    grid-gap: 50px;
+}
+
+.rivers-grid p {
+    padding: 10px;
+    color: #14213D;
+}
+
+.rivers-grid h1 {
+    font-family: "Bebas Neue";
+    padding: 10px;
+    color: #14213D;
+}
+
+
+.back2 {
+    background-color: #a9927d;
+    height: 530px;
+    padding: 20px;
+}
+
+#snake, #grand {
+    float: left;
+    border: 10px solid #1AC7C4;
+    box-shadow: 5px 5px 10px #14213D;
+    margin: 15px;
+}
+
+#utah {
+    float: right;
+    border: 10px solid #1AC7C4;
+    box-shadow: 5px 5px 10px #14213D;
+    margin: 15px;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
