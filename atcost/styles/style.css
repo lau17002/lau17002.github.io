@@ -9,9 +9,10 @@ body {
 }
 
 header {
-    background-color: #8E8D8A;
+    background-color: #8E8D8A; opacity: 1;
     display: grid;
     grid-template-columns: 200px auto;
+
 }
 
 .logo {
@@ -217,4 +218,63 @@ button:hover {
     border: 5px solid #8E8D8A;
 }
 
+.budgetPic {
+    width: 100%;
+    height: auto;
+}
 
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25px 1fr 1fr 100px 1fr 1fr 100px;
+    margin-top: 100px;
+    color: #E85A4F
+}
+
+.pricing-grid section {
+    padding: 10px;
+    background-color:#8E8D8A;
+    color: #D8C3A5;
+    box-shadow: 5px 5px 10px #f07b73;
+}
+
+.pricing-grid h2, h4 {
+    font-family: "Bebas Neue";
+}
+
+.pricing-grid p {
+    color: #D8C3A5;
+}
+
+.pricing-grid h2 {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.expense-price {
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.software-price {
+    grid-column: 5/7;
+    grid-row: 2/4;
+}
+
+.service-price {
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+
+.package-price {
+    grid-column: 5/7;
+    grid-row: 5/7;
+}
+
+.pricing-grid button {
+    margin-left: 90px;
+}
+
+.pricing-grid button:hover {
+    background-color: #D8C3A5;
+}
