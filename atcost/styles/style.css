@@ -195,6 +195,7 @@ button {
     font-family: "Bebas Neue";
     font-size: 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 button:hover {
